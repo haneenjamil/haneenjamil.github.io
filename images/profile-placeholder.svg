@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title description">
+	<title id="title">Profile photo placeholder</title>
+	<desc id="description">A neutral silhouette for Haneen Jamil's profile photograph</desc>
+	<rect width="256" height="256" fill="#e8edf2"/>
+	<circle cx="128" cy="128" r="52" fill="#9aa7b2"/>
+	<circle cx="128" cy="106" r="44" fill="#c2cad1"/>
+	<path d="M42 256c8-58 42-88 86-88s78 30 86 88" fill="#9aa7b2"/>
+</svg>
