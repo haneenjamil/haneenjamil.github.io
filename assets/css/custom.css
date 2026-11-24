@@ -656,3 +656,100 @@ body {
 		line-height: 1.5;
 	}
 }
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+	body {
+		min-width: 320px;
+	}
+
+	.portfolio-nav,
+	.portfolio-shell {
+		width: calc(100% - 24px);
+	}
+
+	.portfolio-nav {
+		top: 6px;
+		margin-top: 6px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.nav-links a {
+		padding: 4px 2px;
+		font-size: 10px;
+		letter-spacing: 0.05em;
+	}
+
+	.hero {
+		gap: 30px;
+		padding: 34px 16px;
+	}
+
+	.profile-frame {
+		width: 132px;
+		height: 132px;
+	}
+
+	.profile-meta {
+		gap: 6px;
+	}
+
+	.profile-meta span {
+		padding: 7px 8px;
+		font-size: 10px;
+	}
+
+	.hero h1 {
+		font-size: 36px;
+	}
+
+	.degree {
+		font-size: 14px;
+	}
+
+	.biography {
+		font-size: 14px;
+		line-height: 1.7;
+	}
+
+	.section-heading {
+		margin-bottom: 24px;
+	}
+
+	.section-heading h2 {
+		font-size: 28px;
+	}
+
+	.content-section {
+		padding-top: 58px;
+	}
+
+	.info-card,
+	.project-card {
+		padding: 20px 16px;
+	}
+
+	.skill-list {
+		gap: 7px;
+	}
+
+	.skill-list span {
+		max-width: 100%;
+		padding-right: 9px;
+		padding-left: 9px;
+		font-size: 11px;
+	}
+
+	.contact-link {
+		min-height: 82px;
+		gap: 12px;
+		padding: 14px;
+		font-size: 12px;
+	}
+
+	.contact-icon {
+		flex-basis: 38px;
+		width: 38px;
+		height: 38px;
+	}
+}
